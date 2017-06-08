@@ -92,13 +92,11 @@ div.description {
 
 a {
   text-decoration: none;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  text-align: right;
-  color: #eee;
-  font-size: 15px;
-  line-height: 15px;
+  color: white;
+}
+
+a:hover {
+  color: pink
 }
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
