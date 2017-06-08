@@ -55,11 +55,27 @@ body {
   font-family: 'Ubuntu';
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 1.3em;
+  font-size: 2em;
   line-height: 2;
-  font-weight: 300;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   text-align: center;
+}
+
+p.regTxt {
+  font-size: .5em !important;
+}
+
+div.description {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%
+}
+
+.line-separator{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
 }
 
 .container {
