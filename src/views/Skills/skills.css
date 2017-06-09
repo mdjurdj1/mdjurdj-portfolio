@@ -1,0 +1,11 @@
+div#viewContainer {
+  margin-top: 2em;
+  text-align: left;
+  width: 48%;
+  margin-left: 25%;
+}
+
+div#viewContainer h3 {
+  margin-bottom: 0;
+  color: #00A7C8
+}

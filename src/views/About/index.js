@@ -28,7 +28,7 @@ export default class About extends Component {
             <img id="my_pic" src='../../itsame.png' alt="my_pic"/>
             <p className="blue">My Background</p>
             <p>
-            I'm a former English major turned Law School Student turned Entrepeneur turned Developer. What does that
+            I'm a former English major turned Law School Prospect turned Entrepeneur turned Developer. What does that
               mean for you? Well, I've got the kind of diverse background you want for your dynamic projects.
             </p>
             <p>I'm also a big fan of sci-fi thrillers and dystopian fiction.

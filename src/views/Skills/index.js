@@ -13,7 +13,13 @@ export default class Skills extends Component {
         transitionEnterTimeout={900}
         transitionLeave={true}
         transitionLeaveTimeout={900}>
-        <h1>SKILLS</h1>
+        <div id="viewContainer">
+          <header id="about_header">
+            <h3>Skills</h3>
+            <div className="line-separator"></div>
+          </header>
+
+        </div>
       </CSSTransitionGroup>
     )
   }
