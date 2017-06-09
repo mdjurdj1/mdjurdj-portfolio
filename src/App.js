@@ -7,8 +7,8 @@ import {
 
 import Home from './views/Home'
 import About from './views/About'
+import Skills from './views/Skills'
 import './App.css';
-import $ from 'jquery';
 
 class App extends Component {
   render() {
@@ -17,7 +17,8 @@ class App extends Component {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route path="/about" component={About} />
+          <Route path="/skills" component={Skills} />
         </Switch>
       </div>
     </Router>
