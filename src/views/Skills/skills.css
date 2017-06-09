@@ -10,6 +10,8 @@ div#viewContainer h3 {
   color: #00A7C8
 }
 
+/*CONTENT==========================================================*/
+
 div#viewContent {
   text-transform: none;
   font-family: Verdana, Geneva, sans-serif;
@@ -21,14 +23,23 @@ div#skillsWrapper {
   margin-left: 4em;
 }
 
+p.blue.header {
+  font-size: large
+}
+
 div.skillsBox {
   display: inline-block;
   float: left;
-  width: 33%;
+  width: 40%;
+}
+
+div.skillsBox li {
+    margin-bottom: 0.5em;
+    list-style-position: inside;
 }
 
 div#skills2 {
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 /*IMAGES========================================================*/

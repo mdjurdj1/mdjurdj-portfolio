@@ -29,7 +29,7 @@ export default class Skills extends Component {
 
             <div id="skillsWrapper">
               <div className="skillsBox">
-                <p className="blue">Front End</p>
+                <p className="blue header">Front End</p>
                 <ul>
                   <li> <img className="logo" src="../reactLogo.png"/> React & React-Redux</li>
                   <li> <img className="logo" src="../jquery.png"/> Jquery</li>
@@ -42,7 +42,7 @@ export default class Skills extends Component {
               </div>
 
               <div className="skillsBox" id="skills2">
-                <p className="blue">Back End</p>
+                <p className="blue header">Back End</p>
                 <ul>
                   <li> <img className="logo" src="../ruby.png"/> Ruby</li>
                   <li> <img className="logo" src="../rails.png"/> Ruby-on-Rails</li>
