@@ -69,8 +69,13 @@ div#description {
   and (-webkit-min-device-pixel-ratio: 2) {
     div#aboutContainer {
       margin-top: 2em;
+      margin-left: 1em;
       text-align: left;
       width: 80%;
-      margin-left: 25%;
+    }
+
+    img#my_pic  {
+      height: 200px;
+      width: 165px;
     }
 }
