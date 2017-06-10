@@ -9,6 +9,30 @@
 
 div.workImage img {
   border:3px solid #00A7C8;
-  height: 220px !important;
-  width: 360px !important;
+  height: 100% !important;
+  width: 100% !important;
+  max-width: 400px !important;
+  max-height: 230px !important;
+}
+
+string.ui.blue.ribbon.label {
+  border: 1px solid black;
+}
+
+p.img_name {
+  opacity: 1;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top:40%;
+  letter-spacing: 0;
+  color: red;
+  border: 4px solid red;
+  font-weight: bold;
+  font-size: 0.4em;
+  max-width: 400px;
+}
+
+div.workImage.hover {
+    opacity: 0.5;
 }
