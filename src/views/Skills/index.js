@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
-import { Grid, Image } from 'semantic-ui-react'
+import { Grid, Image, Header } from 'semantic-ui-react'
 
 import './skills.css'
 
@@ -17,10 +17,9 @@ export default class Skills extends Component {
         transitionLeaveTimeout={900}>
 
         <div id="viewContainer">
-          <header id="about_header">
-            <h3>Skills</h3>
-            <div className="line-separator"></div>
-          </header>
+          <Header id="skills_header" as='h3'>
+            About Me
+          </Header>
 
           <div id="viewContent">
             <p>Though I primarily work with JavaScript and JavaScript-based stacks, Im more than familiar with a number
