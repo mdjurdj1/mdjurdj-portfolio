@@ -27,7 +27,7 @@ export default class WorkImage extends Component {
           <Image
              src={this.props.src}
              as='a'
-             href='http://google.com'
+             href={this.props.link}
              target='_blank'
            />
           <p>{this.props.name}</p>
