@@ -15,7 +15,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="container">
-        <span className="txt anim-text-flow">Michael Djurdjevic</span>
+        <span id="my_name" className="txt anim-text-flow">Michael Djurdjevic</span>
         <p className="regTxt">Web Developer</p>
         <div className="description">
           <div className="line-separator"></div>
