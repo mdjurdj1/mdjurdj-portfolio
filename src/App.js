@@ -8,6 +8,7 @@ import {
 import Home from './views/Home'
 import About from './views/About'
 import Skills from './views/Skills'
+import Work from './views/Work'
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
+          <Route path="/work" component={Work} />
         </Switch>
       </div>
     </Router>
