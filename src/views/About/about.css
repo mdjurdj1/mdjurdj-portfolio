@@ -15,7 +15,7 @@
 div.page_wrapper {
   width: 50%;
   margin-left: 25%;
-  margin-top: 2em;
+  margin-top: 2.2em;
 }
 
 h3#about_header {
@@ -49,25 +49,10 @@ div#my_pic {
 }
 
 div#about_me img {
-  border: 1px solid #00A7C8;
+  box-shadow: 10px 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-/*MOBILE STYLING!!!!============================================*/
-
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    div#aboutContainer {
-      margin-top: 2em;
-      margin-left: 1em;
-      text-align: left;
-      width: 80%;
-    }
-
-    img#my_pic  {
-      height: 200px;
-      width: 165px;
-    }
+a#contact_link {
+  font-weight: bold;
+  color: pink
 }

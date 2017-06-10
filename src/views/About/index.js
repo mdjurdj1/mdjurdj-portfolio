@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import { Segment, Image, Header } from 'semantic-ui-react'
+import {Link} from 'react-router-dom'
 import './about.css'
 
 const src = '../itsame.png'
@@ -55,7 +56,7 @@ export default class About extends Component {
             be awesome, trust me.)
           </p>
           <p className="blue">Wanna Work Together?</p>
-          <p>Sounds like a plan! Feel free to check out my contact page so we can get in touch!</p>
+          <p>Sounds like a plan! Feel free to check out my <Link id="contact_link" to="/contact">contact page</Link> so we can get in touch!</p>
         </Segment>
         </div>
        </CSSTransitionGroup>
