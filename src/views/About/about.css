@@ -11,30 +11,30 @@
     color: #00A7C8;
     font-weight: bold;
 }
-/*HEADER!!!!!-----------------------------------------------------*/
 
-div#aboutContainer {
-  margin-top: 2em;
-  text-align: left;
-  width: 48%;
+div.page_wrapper {
+  width: 50%;
   margin-left: 25%;
+  margin-top: 2em;
 }
 
-div#aboutContainer h3 {
-  margin-bottom: 0;
-  color: #00A7C8
+h3#about_header {
+  background-color: inherit;
+  text-align: left;
+  padding-left: 0.5em;
+  font-size: 2em;
+  color: #00A7C8;
 }
 
-div#aboutContainer p {
-  font-size: 0.5em;
-  margin-bottom: 1.2em;
+div#about_me {
+  background-color: inherit;
+  text-transform: none;
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0
 }
 
-header#about_header {
-  margin-bottom: 1em;
-}
-
-/*-----------------------------------------------------*/
 
 div#about_content {
   text-transform: none;
@@ -43,23 +43,15 @@ div#about_content {
   letter-spacing: 0
 }
 
-img#my_pic {
-  float: left;
-  margin-right: 1em;
-  margin-top: 0.5em;
-  height: 300px;
-  width: 220px;
-  padding:1px;
-  border: 4px solid #00A7C8;
+
+div#my_pic {
+  margin-right: 2em;
 }
 
-p.block {
-  display: inline-block;
+div#about_me img {
+  border: 1px solid #00A7C8;
 }
 
-div#description {
-  font-size: 1em;
-}
 
 /*MOBILE STYLING!!!!============================================*/
 
