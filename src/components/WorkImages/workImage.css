@@ -37,9 +37,6 @@ p.img_name {
   max-width: 400px;
 }
 
-div.workImage.hover {
-    opacity: 0.9;
-}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
