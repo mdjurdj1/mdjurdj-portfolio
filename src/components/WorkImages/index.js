@@ -37,7 +37,6 @@ export default class WorkImage extends Component {
       return (
         <div className="workImage" onMouseOver={this.handleFocus} onMouseLeave={this.handleLeave}>
           <img src={this.props.src} alt="" />
-          <p>{this.props.name}</p>
         </div>
       )
     }

@@ -2,3 +2,8 @@ div.column {
   display: inline-block !important;
   margin: 1%;
 }
+
+div.two.column.row {
+  display: inline-block !important;
+  width: 90%;
+}
