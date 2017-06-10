@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import WorkImagesContainer from '../../containers/WorkImagesContainer'
-import {Link} from 'react-router-dom'
 import { Segment, Icon, Header } from 'semantic-ui-react'
 import './work.css'
 
@@ -24,9 +23,9 @@ export default class Work extends Component {
 
           <div className="line-separator"></div>
 
-          <p id="about_work">From Ruby CLI Gems to Responsive React-Redux applications - check out my latest projects! I'm constantly building
-          and creating new things, so there's always more to come. If you want to check out some of my coding history, feel free to browse my&nbsp;
-          <Link to="https://github.com/mdjurdj1"><span>Github!   <Icon name="github" /></span></Link>
+          <p id="about_work">From Ruby CLI Gems to Responsive, Full-Stack React-Redux applications - check out my latest projects! I'm constantly building
+          and creating new things, so there's always more to come. If you want to look at some of my coding history, feel free to browse my&nbsp;
+          <a href="https://github.com/mdjurdj1"><span id="github_link">Github!   <Icon name="github" /></span></a>
           </p>
         </div>
 

@@ -40,3 +40,19 @@ p.img_name {
 div.workImage.hover {
     opacity: 0.9;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    string.ui.black.ribbon.label {
+      display: none;
+    }
+
+    string.ui.blue.ribbon.label {
+    display: none;
+    }
+
+    div.column {
+      display: block !important;
+      min-width: 300px !important;
+    }
+}

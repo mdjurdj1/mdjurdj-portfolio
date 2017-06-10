@@ -30,7 +30,7 @@ export default class About extends Component {
         </Header>
 
         <div className="line-separator"></div>
-        
+
         <Segment id="about_me">
           <Image
             id="my_pic"

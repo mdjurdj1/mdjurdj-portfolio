@@ -26,7 +26,7 @@ h3#about_header {
   color: #00A7C8;
 }
 
-p#about_work {
+div#about_me {
   background-color: inherit;
   text-transform: none;
   text-align: left;
