@@ -27,7 +27,7 @@ export default class Skills extends Component {
         <div className="line-separator"></div>
 
           <div id="skillsContent">
-            <p>Though I primarily work with JavaScript and JavaScript-based stacks, Im more than familiar with a number
+            <p id="skills_text">Though I primarily work with JavaScript and JavaScript-based stacks, Im more than familiar with a number
             of other languages, frameworks, and libraries. Picking up a new framework or language is no issue! Here are just some of my
             favorites...</p>
 

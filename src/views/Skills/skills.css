@@ -11,9 +11,13 @@ h3#skills_header {
 div#skillsContent {
   text-transform: none;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 0.5em;
+  font-size: 0.6em;
   letter-spacing: 0;
   text-align: left;
+}
+
+p#skills_text {
+  margin: 2em 0 2em 0;
 }
 
 
