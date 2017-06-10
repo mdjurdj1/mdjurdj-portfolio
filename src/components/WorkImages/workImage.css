@@ -8,15 +8,19 @@
 }
 
 div.workImage img {
-  border:3px solid #00A7C8;
+  border:2px solid black;
   height: 100% !important;
   width: 100% !important;
   max-width: 400px !important;
   max-height: 230px !important;
 }
 
+string.ui.black.ribbon.label {
+  border: 1px solid white;
+}
+
 string.ui.blue.ribbon.label {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 p.img_name {
@@ -34,5 +38,5 @@ p.img_name {
 }
 
 div.workImage.hover {
-    opacity: 0.5;
+    opacity: 0.9;
 }

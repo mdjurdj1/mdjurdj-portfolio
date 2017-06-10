@@ -2,3 +2,20 @@ div#work_wrapper {
   width: 60%;
   margin-left: 23%;
 }
+
+h3#work_header {
+  background-color: inherit;
+  text-align: left;
+  padding-left: 0.5em;
+  font-size: 2em;
+  color: #00A7C8;
+}
+
+div#about_work {
+  background-color: inherit;
+  text-transform: none;
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0
+}

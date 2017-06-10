@@ -23,11 +23,14 @@ export default class About extends Component {
         transitionEnterTimeout={900}
         transitionLeave={true}
         transitionLeaveTimeout={900}>
+
       <div className="page_wrapper">
         <Header id="about_header" as='h3'>
           About Me
         </Header>
+
         <div className="line-separator"></div>
+        
         <Segment id="about_me">
           <Image
             id="my_pic"

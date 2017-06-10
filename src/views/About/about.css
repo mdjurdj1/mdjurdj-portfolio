@@ -26,13 +26,14 @@ h3#about_header {
   color: #00A7C8;
 }
 
-div#about_me {
+p#about_work {
   background-color: inherit;
   text-transform: none;
   text-align: left;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 0.6em;
-  letter-spacing: 0
+  letter-spacing: 0;
+  margin-bottom: 2em;
 }
 
 
