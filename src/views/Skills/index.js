@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import { Grid, Image, Header } from 'semantic-ui-react'
+import NavArrowLeft from '../../components/NavArrowLeft'
 
 import './skills.css'
 
@@ -16,12 +17,16 @@ export default class Skills extends Component {
         transitionLeave={true}
         transitionLeaveTimeout={900}>
 
-        <div id="viewContainer">
+      <NavArrowLeft />
+
+        <div className="page_wrapper">
           <Header id="skills_header" as='h3'>
-            About Me
+            Skills
           </Header>
 
-          <div id="viewContent">
+        <div className="line-separator"></div>
+
+          <div id="skillsContent">
             <p>Though I primarily work with JavaScript and JavaScript-based stacks, Im more than familiar with a number
             of other languages, frameworks, and libraries. Picking up a new framework or language is no issue! Here are just some of my
             favorites...</p>

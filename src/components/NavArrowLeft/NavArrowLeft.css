@@ -2,9 +2,10 @@ div#navarrowleft {
   position: fixed;
   top: 35%;
   left: 2%;
-  font-size: 2.5em;
+  font-size: 2.7em;
   opacity: 0.2;
 }
+
 div#navarrowleft:hover {
   opacity: .5;
 }
@@ -14,6 +15,7 @@ div#navarrowleft span#navText {
   top: -18px;
   left: -10px;
   font-size: small;
+  font-weight: bold;
   margin-left: 2px;
   animation: fontappear 2s;
 }

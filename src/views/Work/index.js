@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import WorkImagesContainer from '../../containers/WorkImagesContainer'
 import { Segment, Icon, Header } from 'semantic-ui-react'
+import NavArrowLeft from '../../components/NavArrowLeft'
 import './work.css'
 
 export default class Work extends Component {
@@ -15,6 +16,8 @@ export default class Work extends Component {
         transitionEnterTimeout={900}
         transitionLeave={true}
         transitionLeaveTimeout={900}>
+
+        <NavArrowLeft />
 
         <div className="page_wrapper">
           <Header id="work_header" as='h3'>

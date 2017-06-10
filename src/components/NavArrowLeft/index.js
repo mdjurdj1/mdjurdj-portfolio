@@ -30,7 +30,7 @@ export default class NavArrowLeft extends Component {
       return (
         <div id="navarrowleft" onMouseLeave={this.unHover}>
           <Link to="/"> <Icon name='angle left' /></Link>
-          <span id="navText">About</span>
+          <span id="navText">Home</span>
         </div>
       )
   }
