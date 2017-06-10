@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
-import { Image } from 'semantic-ui-react'
+import { Image, Label } from 'semantic-ui-react'
 import "./workImage.css"
 
 export default class WorkImage extends Component {
@@ -23,7 +23,7 @@ export default class WorkImage extends Component {
   render() {
     if(this.state.hover) {
       return (
-        <div className="workImage hover" onMouseOver={this.handleFocus} onMouseLeave={this.handleLeave}>
+        <div className="workImage hover" onMouseLeave={this.handleLeave}>
           <Image
              src={this.props.src}
              as='a'
@@ -35,8 +35,13 @@ export default class WorkImage extends Component {
       )
     } else {
       return (
-        <div className="workImage" onMouseOver={this.handleFocus} onMouseLeave={this.handleLeave}>
-          <img src={this.props.src} alt="" />
+        <div className="workImage" onMouseEnter={this.handleFocus}>
+        <Image
+           src={this.props.src}
+           as='a'
+           href={this.props.link}
+           target='_blank'
+         />
         </div>
       )
     }

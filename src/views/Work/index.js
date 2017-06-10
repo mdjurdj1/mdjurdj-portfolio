@@ -22,7 +22,9 @@ export default class Work extends Component {
           </header>
         </div>
 
+      <div id="work_wrapper">
         <WorkImagesContainer />
+      </div>
 
       </CSSTransitionGroup>
     )

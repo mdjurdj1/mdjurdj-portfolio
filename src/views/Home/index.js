@@ -19,7 +19,7 @@ export default class Home extends Component {
         <p className="regTxt">Web Developer</p>
         <div className="description">
           <div className="line-separator"></div>
-            <p className="regTxt">
+            <p className="linkTxt">
               <Link to="/about">About</Link> ·&nbsp;
               <Link to="/skills">Skills</Link>   ·
               <Link to="/work"> My Work</Link>   ·&nbsp;

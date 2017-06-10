@@ -5,6 +5,7 @@ import {
   Switch
 } from 'react-router-dom'
 
+import NavArrowLeft from './components/NavArrowLeft'
 import Home from './views/Home'
 import About from './views/About'
 import Skills from './views/Skills'

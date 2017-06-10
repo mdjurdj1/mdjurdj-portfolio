@@ -1,8 +1,4 @@
-div#workImagesContainer {
-  width: 90%;
-  margin: auto;
-}
-
-div.three.column.row {
-  width: 90% !important;
+div#work_wrapper {
+  width: 60%;
+  margin-left: 20%;
 }
