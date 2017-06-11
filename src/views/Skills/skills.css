@@ -47,3 +47,18 @@ img.logo {
   height: 20px;
   width: 20px
 }
+
+/*MOBILE RESIZE=============================================================*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    div.skillsBox {
+      display: block;
+      float: left;
+      width: 90%;
+      margin-left: 0.1em;
+    }
+
+    div#skills2 {
+      margin-left: 0.1em;
+    }
+}
