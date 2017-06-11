@@ -21,7 +21,7 @@ export default class Work extends Component {
         <Menu />
         <NavArrowLeft />
 
-        <div className="page_wrapper">
+        <div className="page_wrapper work">
           <Header id="work_header" as='h3'>
               Web Portfolio
           </Header>
