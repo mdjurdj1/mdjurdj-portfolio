@@ -34,7 +34,7 @@ export default class Skills extends Component {
             favorites...</p>
 
             <div id="skillsWrapper">
-              <div className="skillsBox">
+              <div className="skillsBox" id="skills1">
                 <p className="blue header">Front End</p>
                 <ul>
                   <li> <img className="logo" src="../reactLogo.png"/> React & React-Redux</li>

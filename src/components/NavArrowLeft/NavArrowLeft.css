@@ -36,3 +36,11 @@ div#navarrowleft span#navText {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
+
+/*MOBILE RESIZE=============================================================*/
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    div#navarrowleft {
+      display: none;
+    }
+}
