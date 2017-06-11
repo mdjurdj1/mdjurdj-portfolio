@@ -57,3 +57,14 @@ a#contact_link {
   font-weight: bold;
   color: pink
 }
+
+/*MEDIAQUERY============================================================*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    div.page_wrapper {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 2.2em;
+    }
+}
