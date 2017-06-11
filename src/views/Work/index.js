@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import WorkImagesContainer from '../../containers/WorkImagesContainer'
-import { Segment, Icon, Header } from 'semantic-ui-react'
+import { Icon, Header } from 'semantic-ui-react'
 import NavArrowLeft from '../../components/NavArrowLeft'
 import Menu from '../../components/Menu'
 import './work.css'

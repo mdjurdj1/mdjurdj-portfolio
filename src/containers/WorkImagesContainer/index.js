@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import WorkImage from '../../components/WorkImages'
-import { Grid, Image } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 import "./workImagesContainer.css"
 
 export default class WorkImagesContainer extends Component {

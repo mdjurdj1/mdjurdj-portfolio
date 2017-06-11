@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
-import { Grid, Image, Header } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
 import NavArrowLeft from '../../components/NavArrowLeft'
 import Menu from '../../components/Menu'
 
@@ -37,26 +37,26 @@ export default class Skills extends Component {
               <div className="skillsBox" id="skills1">
                 <p className="blue header">Front End</p>
                 <ul>
-                  <li> <img className="logo" src="../reactLogo.png"/> React & React-Redux</li>
-                  <li> <img className="logo" src="../jquery.png"/> Jquery</li>
-                  <li> <img className="logo" src="../angular.png"/> Angular & Ember</li>
-                  <li> <img className="logo" src="../html5.png"/> HTML5</li>
-                  <li> <img className="logo" src="../css3.png"/> CSS3</li>
-                  <li> <img className="logo" src="../wordpress.png"/> WordPress & Drupal</li>
-                  <li> <img className="logo" src="../photoshop.png"/> Photoshop</li>
+                  <li> <img className="logo" alt="" src="../reactLogo.png"/> React & React-Redux</li>
+                  <li> <img className="logo" alt="" src="../jquery.png"/> Jquery</li>
+                  <li> <img className="logo" alt="" src="../angular.png"/> Angular & Ember</li>
+                  <li> <img className="logo" alt="" src="../html5.png"/> HTML5</li>
+                  <li> <img className="logo" alt="" src="../css3.png"/> CSS3</li>
+                  <li> <img className="logo" alt="" src="../wordpress.png"/> WordPress & Drupal</li>
+                  <li> <img className="logo" alt="" src="../photoshop.png"/> Photoshop</li>
                 </ul>
               </div>
 
               <div className="skillsBox" id="skills2">
                 <p className="blue header">Back End</p>
                 <ul>
-                  <li> <img className="logo" src="../ruby.png"/> Ruby</li>
-                  <li> <img className="logo" src="../rails.png"/> Ruby-on-Rails</li>
-                  <li> <img className="logo" src="../javascript.png"/> JavaScript</li>
-                  <li> <img className="logo" src="../sql.png"/> PostgreSQL & MongoDB</li>
-                  <li> <img className="logo" src="../nodejs.png"/> Node.Js</li>
-                  <li> <img className="logo" src="../express.png"/> Express</li>
-                  <li> <img className="logo" src="../rest.png"/> REST/SOAP</li>
+                  <li> <img className="logo" alt="" src="../ruby.png"/> Ruby</li>
+                  <li> <img className="logo" alt="" src="../rails.png"/> Ruby-on-Rails</li>
+                  <li> <img className="logo" alt="" src="../javascript.png"/> JavaScript</li>
+                  <li> <img className="logo" alt="" src="../sql.png"/> PostgreSQL & MongoDB</li>
+                  <li> <img className="logo" alt="" src="../nodejs.png"/> Node.Js</li>
+                  <li> <img className="logo" alt="" src="../express.png"/> Express</li>
+                  <li> <img className="logo" alt="" src="../rest.png"/> REST/SOAP</li>
                 </ul>
               </div>
             </div>

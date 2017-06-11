@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
-import { Segment, Image, Header, Icon, Button } from 'semantic-ui-react'
-import {Link} from 'react-router-dom'
+import { Segment, Header, Icon, Button } from 'semantic-ui-react'
 import NavArrowLeft from '../../components/NavArrowLeft'
 import Menu from '../../components/Menu'
 import './contact.css'

@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
-import { CSSTransitionGroup } from 'react-transition-group'
-import { Image, Label } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import "./workImage.css"
 
 export default class WorkImage extends Component {

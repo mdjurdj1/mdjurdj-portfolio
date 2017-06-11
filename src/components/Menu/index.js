@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Icon, Breadcrumb} from 'semantic-ui-react'
+import {Icon} from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 import './menu.css'
 
