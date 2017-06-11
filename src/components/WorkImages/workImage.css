@@ -13,6 +13,7 @@ div.workImage img {
   width: 100% !important;
   max-width: 400px !important;
   max-height: 230px !important;
+  min-height: 230px;
 }
 
 string.ui.black.ribbon.label {
