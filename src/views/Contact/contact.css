@@ -1,0 +1,21 @@
+div.page_wrapper.contact {
+  margin-top: 5em;
+}
+
+div#contact_me {
+  background-color: inherit;
+  text-transform: none;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.6em;
+  letter-spacing: 0;
+  text-align: left
+}
+
+div#socials {
+  margin-top: 4em;
+  text-align: left;
+}
+
+button.ui {
+  margin-right: 1em !important;
+}

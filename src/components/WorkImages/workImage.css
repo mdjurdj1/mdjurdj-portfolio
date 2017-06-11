@@ -50,7 +50,6 @@ p.img_name {
     }
 
     div.column {
-      display: block !important;
-      min-width: 300px !important;
+      min-width: 200px !important;
     }
 }
