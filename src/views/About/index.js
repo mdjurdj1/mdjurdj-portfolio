@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import { Segment, Image, Header } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
+
+import Menu from '../../components/Menu'
 import NavArrowLeft from '../../components/NavArrowLeft'
 import './about.css'
 
@@ -25,6 +27,7 @@ export default class About extends Component {
         transitionLeave={true}
         transitionLeaveTimeout={900}>
 
+      <Menu />
       <NavArrowLeft />
 
       <div className="page_wrapper">

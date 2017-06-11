@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import { Grid, Image, Header } from 'semantic-ui-react'
 import NavArrowLeft from '../../components/NavArrowLeft'
+import Menu from '../../components/Menu'
 
 import './skills.css'
 
@@ -17,6 +18,7 @@ export default class Skills extends Component {
         transitionLeave={true}
         transitionLeaveTimeout={900}>
 
+      <Menu />
       <NavArrowLeft />
 
         <div className="page_wrapper">

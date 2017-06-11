@@ -3,6 +3,7 @@ import { CSSTransitionGroup } from 'react-transition-group'
 import { Segment, Image, Header, Icon, Button } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 import NavArrowLeft from '../../components/NavArrowLeft'
+import Menu from '../../components/Menu'
 import './contact.css'
 
 export default class Contact extends Component {
@@ -17,6 +18,7 @@ export default class Contact extends Component {
         transitionLeave={true}
         transitionLeaveTimeout={900}>
 
+      <Menu />
       <NavArrowLeft />
 
       <div className="page_wrapper contact">

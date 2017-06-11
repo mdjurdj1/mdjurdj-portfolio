@@ -1,0 +1,26 @@
+#menu {
+  position: fixed;
+  right: 10%;
+  top: 5%;
+  font-size: 1.2em;
+  width: 10%;
+  text-align: right;
+}
+
+#menu.opened {
+  color: #00A7C8;
+}
+
+div#breadcrumbs {
+  font-size: small;
+  text-align: right;
+}
+
+div#breadcrumbs a {
+  text-align: right;
+}
+
+i.menu_icon {
+  opacity: 0.6;
+  cursor: pointer;
+}
