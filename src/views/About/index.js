@@ -10,7 +10,7 @@ import './about.css'
 const src = '../itsame.png'
 const handleClick = () => {
   var myArray = ["Howdy!", "Pleasure to meet ya'.", "Huh? You needed something?", "Clicking buttons is fun, wheee.",
-  "Hah. Bet you thought this didn't do anything!", "Don't let your dreams be dreams!"]
+  "Hah. Bet you thought this didn't do anything!", "Don't let your dreams be dreams!", "You found me!"]
   var rand = myArray[Math.floor(Math.random() * myArray.length)];
   alert(rand)
 }
