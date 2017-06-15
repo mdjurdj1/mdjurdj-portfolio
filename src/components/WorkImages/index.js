@@ -38,16 +38,16 @@ export default class WorkImage extends Component {
     } else {
       return (
         <div className="workImage">
-        <Image
-          onMouseEnter={this.handleFocus}
-          onMouseLeave={this.handleLeave}
-           fluid
-           label={{ as: 'string', color: 'black', content: this.props.name, icon: this.props.icon, ribbon: true }}
-           src={this.props.src}
-           as='a'
-           href={this.props.link}
-           target='_blank'
-         />
+          <Image className="work_image"
+            onMouseEnter={this.handleFocus}
+            onMouseLeave={this.handleLeave}
+             fluid
+             label={{ as: 'string', color: 'black', content: this.props.name, icon: this.props.icon, ribbon: true }}
+             src={this.props.src}
+             as='a'
+             href={this.props.link}
+             target='_blank'
+           />
         </div>
       )
     }
