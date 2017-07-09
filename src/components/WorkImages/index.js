@@ -33,6 +33,7 @@ export default class WorkImage extends Component {
              href={this.props.link}
              target='_blank'
            />
+            <p className="language">{this.props.language}</p>
         </div>
       )
     } else {
@@ -48,6 +49,7 @@ export default class WorkImage extends Component {
              href={this.props.link}
              target='_blank'
            />
+          <p className="language">{this.props.language}</p>
         </div>
       )
     }
