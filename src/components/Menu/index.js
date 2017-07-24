@@ -1,53 +1,36 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import {Icon} from 'semantic-ui-react'
-import {Link} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import './menu.css'
 
 export default class Menu extends Component {
-  state = {
-    open: false
+
+  handleOpen = () => {
+    document.getElementById("myNav").style.width = "100%";
   }
 
-  handleClick = () => {
-    this.setState({
-      open: !this.state.open
-    })
+  handleClose = () => {
+    document.getElementById("myNav").style.width = "0%"
   }
 
   render() {
-    if(!this.state.open) {
       return (
-        <div id="menu">
-          <Icon name="caret down" size="tiny" onClick={this.handleClick} />
-          <Icon onClick={this.handleClick} className="menu_icon" name="content" />
-        </div>
-      )
-    } else {
-      return (
-        <CSSTransitionGroup
-          transitionName="menu"
-          transitionAppear={true}
-          transitionAppearTimeout={900}
-          transitionEnter={true}
-          transitionEnterTimeout={900}
-          transitionLeave={true}
-          transitionLeaveTimeout={900}>
+        <div>
+        <Icon name="content" className="menu_icon" size="large" onClick={this.handleOpen} />
 
-        <div id="menu" className="opened">
-        <Icon name="caret up" id="up_caret" size="tiny" onClick={this.handleClick} />
-        <Icon name="content" className="menu_icon" onClick={this.handleClick} />
-          <div id="breadcrumbs">
+        <div id="myNav" className="overlay">
+        <span className="closebtn" onClick={this.handleClose} >&times;</span>
+          <div className="overlay-content">
             <p><Link to="/">Home</Link></p>
-            <p><Link to="/about">About</Link></p>
-            <p><Link to="/work">My Work</Link></p>
-            <p><Link to="/skills">Skills</Link></p>
-            <p><Link to="/contact">Contact</Link></p>
+            <p><NavLink to="/about">About</NavLink></p>
+            <p><NavLink to="/work">My Work</NavLink></p>
+            <p><NavLink to="/skills">Skills</NavLink></p>
+            <p><NavLink to="/contact">Contact</NavLink></p>
           </div>
         </div>
 
-        </CSSTransitionGroup >
+        </div>
       )
     }
-  }
 }
