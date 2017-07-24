@@ -13,6 +13,10 @@ i.menu_icon {
   cursor: pointer;
 }
 
+i.menu_icon:hover {
+  color: pink;
+}
+
 a.active {
   color: #00A7C8 !important;
 }
@@ -69,7 +73,7 @@ a.active {
 }
 
 .overlay .closebtn:hover {
-    color: red;
+    color: pink;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
