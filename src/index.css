@@ -16,3 +16,11 @@ body {
   min-height: 100%;
   font-family: sans-serif;
 }
+
+/*MOBILE RESIZE=============================================================*/
+@media only screen and (max-width: 780px) {
+    /* For mobile phones: */
+    #footer {
+      display: none
+    }
+}
