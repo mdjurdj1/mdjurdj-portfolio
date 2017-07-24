@@ -23,7 +23,8 @@ p#skills_text {
 
 p.blue.header {
   font-size: large;
-  margin-left: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
 div.skillsBox {
@@ -31,10 +32,13 @@ div.skillsBox {
   float: left;
   width: 40%;
   margin-left: 3em;
+  padding: 1em;
+  border: 1px solid rgba(255, 255, 255, .4);
 }
 
 div.skillsBox li {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.4em;
+  list-style: none;
 }
 
 div#skills2 {

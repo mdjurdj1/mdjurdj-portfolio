@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import { Header } from 'semantic-ui-react'
+
 import NavArrowLeft from '../../components/NavArrowLeft'
 import Menu from '../../components/Menu'
-
+import Footer from '../../components/Footer'
 import './skills.css'
 
 export default class Skills extends Component {
@@ -64,6 +65,7 @@ export default class Skills extends Component {
           </div>
         </div>
 
+      <Footer />
       </CSSTransitionGroup>
     )
   }

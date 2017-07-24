@@ -39,8 +39,7 @@ export default class Work extends Component {
       <div id="work_wrapper">
         <WorkImagesContainer />
       </div>
-      
-      <Footer />
+
       </CSSTransitionGroup>
     )
   }
