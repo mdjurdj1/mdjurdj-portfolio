@@ -20,20 +20,25 @@ p#skills_text {
   margin: 2em 0 2em 0;
 }
 
-
 p.blue.header {
   font-size: large;
   padding-bottom: 0.3em;
   border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
+/*LIST STYLING========================================================*/
+
 div.skillsBox {
   display: inline-block;
   float: left;
   width: 40%;
   margin-left: 3em;
-  padding: 1em;
+  padding: 1.5em;
   border: 1px solid rgba(255, 255, 255, .4);
+}
+
+div.skillsBox ul {
+  -webkit-padding-start: 1em;
 }
 
 div.skillsBox li {
@@ -45,7 +50,7 @@ div#skills2 {
   margin-left: 12%;
 }
 
-/*IMAGES========================================================*/
+/*LIST ICON IMAGES========================================================*/
 
 img.logo {
   height: 20px;
