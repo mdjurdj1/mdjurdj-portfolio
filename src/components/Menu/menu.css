@@ -1,8 +1,9 @@
+/*MENU ICON POSITIONING===============================================================*/
+
 #menu {
-  position: fixed;
-  right: 10%;
-  top: 5%;
-  font-size: 1.2em;
+  position: absolute;
+  right: 5%;
+  top: 0;
   width: 10%;
   text-align: right;
 }
@@ -22,6 +23,10 @@ div#breadcrumbs a {
 
 i.menu_icon {
   opacity: 0.6;
+  cursor: pointer;
+}
+
+i#up_caret {
   cursor: pointer;
 }
 

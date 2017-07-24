@@ -19,6 +19,7 @@ export default class Menu extends Component {
     if(!this.state.open) {
       return (
         <div id="menu">
+          <Icon name="caret down" size="tiny" onClick={this.handleClick} />
           <Icon onClick={this.handleClick} className="menu_icon" name="content" />
         </div>
       )
@@ -34,6 +35,7 @@ export default class Menu extends Component {
           transitionLeaveTimeout={900}>
 
         <div id="menu" className="opened">
+        <Icon name="caret up" id="up_caret" size="tiny" onClick={this.handleClick} />
         <Icon name="content" className="menu_icon" onClick={this.handleClick} />
           <div id="breadcrumbs">
             <p><Link to="/">Home</Link></p>
