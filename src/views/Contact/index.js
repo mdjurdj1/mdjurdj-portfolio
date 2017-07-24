@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import { Segment, Header, Icon, Button } from 'semantic-ui-react'
+
 import NavArrowLeft from '../../components/NavArrowLeft'
+import Footer from '../../components/Footer'
 import Menu from '../../components/Menu'
 import './contact.css'
 
@@ -46,6 +48,7 @@ export default class Contact extends Component {
 
         </Segment>
         </div>
+        <Footer />
        </CSSTransitionGroup>
     )
   }

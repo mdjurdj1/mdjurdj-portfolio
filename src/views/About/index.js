@@ -4,6 +4,7 @@ import { Segment, Image, Header } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 
 import Menu from '../../components/Menu'
+import Footer from '../../components/Footer'
 import NavArrowLeft from '../../components/NavArrowLeft'
 import './about.css'
 
@@ -68,6 +69,7 @@ export default class About extends Component {
           <p>Sounds like a plan! Feel free to check out my <Link id="contact_link" to="/contact">contact page</Link> so we can get in touch!</p>
         </Segment>
         </div>
+        <Footer />
        </CSSTransitionGroup>
     )
   }

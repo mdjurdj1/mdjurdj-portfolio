@@ -2,7 +2,9 @@ import React, {Component} from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import WorkImagesContainer from '../../containers/WorkImagesContainer'
 import { Icon, Header } from 'semantic-ui-react'
+
 import NavArrowLeft from '../../components/NavArrowLeft'
+import Footer from '../../components/Footer'
 import Menu from '../../components/Menu'
 import './work.css'
 
@@ -37,7 +39,8 @@ export default class Work extends Component {
       <div id="work_wrapper">
         <WorkImagesContainer />
       </div>
-
+      
+      <Footer />
       </CSSTransitionGroup>
     )
   }
