@@ -1,15 +1,6 @@
-.example-appear {
-  opacity: 0.01;
-}
-
-.example-appear.example-appear-active {
-  opacity: 1;
-  transition: opacity 1s ease-in;
-}
-
 .blue {
-    color: #00A7C8;
-    font-weight: bold;
+  color: #00A7C8;
+  font-weight: bold;
 }
 
 div.page_wrapper {

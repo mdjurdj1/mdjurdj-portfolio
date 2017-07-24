@@ -24,3 +24,14 @@ i.menu_icon {
   opacity: 0.6;
   cursor: pointer;
 }
+
+/*MENU TRANSITION GROUP===========================================================*/
+
+.menu-appear {
+  opacity: 0.01;
+}
+
+.menu-appear.menu-appear-active {
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}

@@ -5,3 +5,12 @@
 div.line-separator {
   margin-bottom: 0.5em;
 }
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.9s ease-in;
+}

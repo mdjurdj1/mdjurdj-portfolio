@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { CSSTransitionGroup } from 'react-transition-group'
 import {Icon} from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 import './menu.css'
@@ -23,6 +24,15 @@ export default class Menu extends Component {
       )
     } else {
       return (
+        <CSSTransitionGroup
+          transitionName="menu"
+          transitionAppear={true}
+          transitionAppearTimeout={900}
+          transitionEnter={true}
+          transitionEnterTimeout={900}
+          transitionLeave={true}
+          transitionLeaveTimeout={900}>
+
         <div id="menu" className="opened">
         <Icon name="content" className="menu_icon" onClick={this.handleClick} />
           <div id="breadcrumbs">
@@ -33,6 +43,8 @@ export default class Menu extends Component {
             <p><Link to="/contact">Contact</Link></p>
           </div>
         </div>
+
+        </CSSTransitionGroup >
       )
     }
   }
