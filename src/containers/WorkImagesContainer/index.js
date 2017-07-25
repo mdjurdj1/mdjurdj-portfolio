@@ -19,7 +19,7 @@ export default class WorkImagesContainer extends Component {
       <div>
         <div className="work_row">
           <WorkImage name={"Minitube"} icon={"desktop"} language={"React · Redux"} src={"../miniTube.jpg"} description={project_descriptions[0]} link={"https://mini-tube-client.herokuapp.com"}/>
-          <WorkImage name={"Appointable"} icon={"desktop"} language={"Rails · Jquery"} src={"../appointable.png"} description={project_descriptions[1]} link={'https://appointable.herokuapp.com/'}/>
+          <WorkImage name={"Appointable"} icon={"youtube play"} language={"Rails · Jquery"} src={"../appointable.png"} description={project_descriptions[1]} link={'https://www.youtube.com/watch?v=Y73TIgQ_AR8'}/>
           <WorkImage name={"DJ's Kitchen & Bar"} icon={"desktop"} language={"Angular"} src={"../ng_rest.jpg"} description={project_descriptions[2]} link={"http://Dj-kitchen.herokuapp.com"} />
         </div>
 
