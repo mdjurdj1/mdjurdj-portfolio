@@ -7,8 +7,6 @@ div.workImage {
 }
 
 div.workImage img {
-  max-width: 200px;
-  max-height: 200px !important;
   min-width: 200px;
   min-height: 200px;
 }
@@ -20,19 +18,27 @@ div.workImage:hover .project_name{
     color: #00A7C8;
 }
 
+div.workImage:hover .project_info{
+    -moz-transition:border.4s ease-in;
+    -o-transition:border.4s ease-in;
+    -webkit-transition:border .4s ease-in;
+    border-color: #00A7C8;
+}
+
 /*PROJECT DETAILS========================================================================*/
 
 div.project_info {
   padding: 1em;
   font-size: 0.55em;
   letter-spacing: 0.2em;
-  border: 1px groove silver;
+  border: 2px groove silver;
   border-top: none;
 }
 
 p.project_name {
+  font-family: 'Ubuntu';
   font-size: 1.2em;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   text-transform: none;
   font-weight: bold;
   padding-bottom: 0.3em;
@@ -45,6 +51,7 @@ p.project_language {
   letter-spacing: 0;
   text-transform: none;
   margin: 2px;
+  font-size: 15px;
 }
 
 p.project_description {
