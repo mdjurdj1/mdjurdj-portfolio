@@ -1,12 +1,3 @@
-.hover-enter {
-  opacity: 0.01;
-}
-
-.hover-enter.hover-enter-active {
-  opacity: 1;
-  transition: opacity 1s ease-in;
-}
-
 /*DIV STYLING================================================================*/
 
 div.workImage {
@@ -22,33 +13,45 @@ div.workImage img {
   min-height: 200px;
 }
 
-div.workImage:hover {
+div.workImage:hover .project_name{
     -moz-transition:color .4s ease-in;
     -o-transition:color .4s ease-in;
     -webkit-transition:color .4s ease-in;
     color: #00A7C8;
 }
 
-p.language {
-  padding: 0.4em 0 0.2em 0;
+/*PROJECT DETAILS========================================================================*/
+
+div.project_info {
+  padding: 1em;
   font-size: 0.55em;
   letter-spacing: 0.2em;
   border: 1px groove silver;
   border-top: none;
 }
 
-
-/*IMAGE RIBBON STYLING===========================================================*/
-
-string.ui.black.ribbon.label {
-  border: 1px solid white;
+p.project_name {
+  font-size: 1.2em;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: bold;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0;
 }
 
-string.ui.blue.ribbon.label {
-  border: 1px solid white;
+p.project_language {
+  padding: 0.5em 0 0.2em 0;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 2px;
 }
 
-
+p.project_description {
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 14px;
+}
 
 /*MOBILE RESIZING====================================================================*/
 
