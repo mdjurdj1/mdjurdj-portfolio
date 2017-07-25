@@ -7,8 +7,8 @@ div.workImage {
 }
 
 div.workImage img {
-  min-width: 170px;
-  min-height: 200px;
+  height: 180px;
+  width: 100%;
 }
 
 div.workImage:hover .project_name{
@@ -33,7 +33,6 @@ div.project_info {
   letter-spacing: 0.2em;
   border: 2px groove silver;
   border-top: none;
-  min-height: 170px;
 }
 
 p.project_name {

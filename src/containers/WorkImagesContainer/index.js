@@ -9,7 +9,7 @@ const project_descriptions = [
   "An Angular-based single-page application with a fully-featured gulpfile and google maps API integration.",
   "A simple workout tracker built on the streamlined Sinatra framework with a SQLite3 database.",
   "A published Ruby gem which utilizes Nokogiri to scrape sports webpages for upcoming events.",
-  "A react-based single-page application for a small, family owned computer repair business.",
+  "A react-based single-page application using react-routerv4 for a small, family owned computer repair business.",
   "My personal blog, speaking on my journey as a professional developer and the languages I love most."
 ]
 
