@@ -7,7 +7,7 @@ div.workImage {
 }
 
 div.workImage img {
-  min-width: 200px;
+  min-width: 170px;
   min-height: 200px;
 }
 
@@ -33,6 +33,7 @@ div.project_info {
   letter-spacing: 0.2em;
   border: 2px groove silver;
   border-top: none;
+  min-height: 170px;
 }
 
 p.project_name {
