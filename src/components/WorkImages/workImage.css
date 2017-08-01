@@ -1,13 +1,24 @@
 /*DIV STYLING================================================================*/
 
 div.workImage {
+  cursor: pointer;
   display: inline-block;
   margin: 1%;
-  width: 31%;
+  width: 30%;
+  border: 2px solid silver;
+}
+
+div.image_wrap {
+  background: #00A7C8;
+  height: 200px;
+  width: 100%;
 }
 
 div.workImage img {
-  height: 180px;
+  cursor: pointer;
+  opacity: 1;
+  min-height: 200px;
+  max-height: 200px;
   width: 100%;
 }
 
@@ -18,21 +29,26 @@ div.workImage:hover .project_name{
     color: #00A7C8;
 }
 
-div.workImage:hover .project_info{
+div.workImage:hover {
     -moz-transition:border.4s ease-in;
     -o-transition:border.4s ease-in;
     -webkit-transition:border .4s ease-in;
     border-color: #00A7C8;
 }
 
+div.workImage:hover img {
+    -moz-transition:opacity .4s ease-in;
+    -o-transition:opacity .4s ease-in;
+    -webkit-transition:opacity .4s ease-in;
+    opacity: 0.8;
+}
+
 /*PROJECT DETAILS========================================================================*/
 
 div.project_info {
-  padding: 1em;
+  padding: 1.5em;
   font-size: 0.55em;
   letter-spacing: 0.2em;
-  border: 2px groove silver;
-  border-top: none;
 }
 
 p.project_name {
@@ -57,7 +73,7 @@ p.project_language {
 p.project_description {
   letter-spacing: 0;
   text-transform: none;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /*MOBILE RESIZING====================================================================*/
